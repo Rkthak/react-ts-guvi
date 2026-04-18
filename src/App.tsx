@@ -1,10 +1,4 @@
-import { Component, type ReactNode } from "react";
-import Header from "./Components/Header";
-
-class App extends Component {
-  render(): ReactNode {
-    return <Header />;
-  }
+function App() {
+  return <h1>hello</h1>;
 }
-
 export default App;

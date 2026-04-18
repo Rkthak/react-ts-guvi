@@ -1,9 +1,8 @@
 import { Component, type ReactNode } from "react";
 
-class Header extends Component {
+class App extends Component {
   render(): ReactNode {
-    return <h1>header</h1>;
+    return <h1>App</h1>;
   }
 }
-
-export default Header;
+export default App;

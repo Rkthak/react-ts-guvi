@@ -1,4 +1,5 @@
 function App() {
-  return <h1>hello</h1>;
+  const username: string = "Rak";
+  return <h1>{username}</h1>;
 }
 export default App;

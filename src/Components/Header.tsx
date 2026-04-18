@@ -1,6 +1,9 @@
-function Header() {
-  const name: string = "Raj";
-  let age: number = 23;
+type Person = {
+  name: string;
+  age: number;
+};
+
+function Header({ name, age }: Person) {
   return (
     <h1>
       {name} {age}

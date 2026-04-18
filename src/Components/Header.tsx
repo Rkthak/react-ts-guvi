@@ -1,8 +1,4 @@
-import { Component, type ReactNode } from "react";
-
-class App extends Component {
-  render(): ReactNode {
-    return <h1>App</h1>;
-  }
+function Header() {
+  return <h1>header</h1>;
 }
-export default App;
+export default Header;

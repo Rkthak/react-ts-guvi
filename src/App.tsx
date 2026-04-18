@@ -1,10 +1,8 @@
-function App() {
-  const name: string = "Raj";
-  let age: number = 23;
-  return (
-    <div>
-      <h1>hello {age}</h1>
-    </div>
-  );
+import { Component, type ReactNode } from "react";
+
+class App extends Component {
+  render(): ReactNode {
+    return <h1>App</h1>;
+  }
 }
 export default App;

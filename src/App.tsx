@@ -1,11 +1,10 @@
-import { Component, type ReactNode } from "react";
-import Header from "./components/Header";
-
-class App extends Component {
-  render(): ReactNode {
-    const name: string = "Raj";
-    let age: number = 23;
-    return <Header name={name} age={age} />;
-  }
+function App() {
+  const name: string = "Raj";
+  let age: number = 23;
+  return (
+    <div>
+      <h1>hello {age}</h1>
+    </div>
+  );
 }
 export default App;
